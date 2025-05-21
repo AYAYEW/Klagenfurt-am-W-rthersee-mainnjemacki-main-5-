@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija - Klagenfurt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+    <!-- Navigacijska traka -->
+    <header class="bg-gray-800/90 backdrop-blur-sm text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+          <a href="/glavno.html" class="text-2xl font-bold hover:text-blue-400 transition duration-300">
+            Klagenfurt 2025
+          </a>
+          <nav class="space-x-6">
+            <a href="/sadrzaj.html" class="hover:text-blue-400 transition duration-300 border-b-2 border-transparent hover:border-blue-400">Sadržaj</a>
+          </nav>
+        </div>
+      </header>
+
+    <!-- Sadržaj stranice -->
+    <div class="container mx-auto px-4 py-12">
+        <h1 class="text-4xl font-bold text-center mb-12 text-blue-400">Odaberite galeriju</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- Centar kocka -->
+            <a href="centar.html" class="group">
+                <div class="bg-gray-800 rounded-xl p-6 shadow-xl transform transition duration-300 group-hover:scale-105">
+                    <h2 class="text-2xl font-bold text-blue-400 mb-4">Centar Grada</h2>
+                    <img src="slike/centar/WhatsApp%20Image%202025-05-04%20at%2021.42.23%20(1).jpeg" alt="Centar" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-gray-400">Pogledajte galeriju fotografija iz centra Klagenfurta</p>
+                </div>
+            </a>
+
+            <!-- Minimundus kocka -->
+            <a href="minimundus.html" class="group">
+                <div class="bg-gray-800 rounded-xl p-6 shadow-xl transform transition duration-300 group-hover:scale-105">
+                    <h2 class="text-2xl font-bold text-blue-400 mb-4">Minimundus</h2>
+                    <img src="slike/minimundus/WhatsApp%20Image%202025-05-04%20at%2021.42.26%20(1).jpeg" alt="Minimundus" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-gray-400">Istražite galeriju slika iz parka minijatura</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
